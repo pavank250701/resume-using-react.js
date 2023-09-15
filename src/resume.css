@@ -1,0 +1,33 @@
+.bg-container {
+    margin: 0;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.page {
+    margin: 0 auto;
+    width: 210mm;
+    height: 280mm;
+    background-color: white;
+    box-shadow: -5px -5px 100px black;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.line{
+    height: 720px;
+    width: 1px;
+    background-color: black;
+    margin-left: -20px;
+    margin-top: 230px;
+}
+
+div>div {
+    display: grid;
+    place-content: center;
+}
